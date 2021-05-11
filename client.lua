@@ -175,9 +175,9 @@ function openDynamicMenu(vehicle)
 	_menuPool:Add(vehMenu)
 	LiveryMenu(vehicle, vehMenu)
 	ExtrasMenu(vehicle, vehMenu)
-	AddDoorsMenu(vehicle, vehMenu)
-	AddWindowsMenu(vehicle, vehMenu)
-	AddLocksEngineMenu(vehicle, vehMenu)
+	#AddDoorsMenu(vehicle, vehMenu)
+	#AddWindowsMenu(vehicle, vehMenu)
+	#AddLocksEngineMenu(vehicle, vehMenu)
 	
 	_menuPool:RefreshIndex()
 	_menuPool:MouseControlsEnabled (false);
